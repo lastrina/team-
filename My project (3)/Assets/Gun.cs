@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
@@ -12,8 +13,12 @@ public class Gun : MonoBehaviour
     public float shotSpeed;
     public int shotCount = 30;
     private float shotInterval;
-    
-   
+    private bool touched;
+
+    private void Start()
+    {
+        
+    }
 
 
     // Update is called once per frame
@@ -47,6 +52,16 @@ public class Gun : MonoBehaviour
         yield return new WaitForSeconds(2f);
         shotCount = 30;
 
+    }
+   
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.name == "tama(Clone)")
+        {
+            touched = true;
+
+
+        }
     }
 
 }
