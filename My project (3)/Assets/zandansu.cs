@@ -20,7 +20,7 @@ public class zandansu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        TextZandan.text = "écíeêîÅG" + Zandan.ToString();
+        TextZandan.text = "Magazine:" + Zandan.ToString();
         if (Input.GetKey(KeyCode.Mouse0))
         {
             shotInterval += 1;
@@ -38,7 +38,6 @@ public class zandansu : MonoBehaviour
 
 
         }
-
        
     }
     private IEnumerator Reload()
