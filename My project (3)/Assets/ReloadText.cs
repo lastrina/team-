@@ -17,6 +17,7 @@ public class ReloadText : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
+            ReText.text = "Reloading";
             StartCoroutine(rete());
         }
 
@@ -25,7 +26,7 @@ public class ReloadText : MonoBehaviour
     private IEnumerator rete()
     {
         yield return new WaitForSeconds(2f);
-        ReText.text = "Reloading";
+        ReText.text = "";
     }
 }
     
