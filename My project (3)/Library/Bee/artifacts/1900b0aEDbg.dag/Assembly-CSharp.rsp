@@ -359,10 +359,12 @@
 -analyzer:"C:/Users/hi3ki/OneDrive/ドキュメント/Office のカスタム テンプレート/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Angle.cs"
 "Assets/cameraScript.cs"
+"Assets/enemyHP.cs"
 "Assets/Gun.cs"
 "Assets/jump.cs"
 "Assets/playerAngle.cs"
 "Assets/ReloadText.cs"
+"Assets/tama.cs"
 "Assets/yajirusi.cs"
 "Assets/zandansu.cs"
 -langversion:9.0
