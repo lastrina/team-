@@ -35,8 +35,9 @@ public class Gun : MonoBehaviour
                 Rigidbody bulletRb = bullet.GetComponent<Rigidbody>();
                 bulletRb.AddForce(transform.forward * shotSpeed);
                 Destroy(bullet, 3.0f);
-
+               
             }
+
        }
        else if (Input.GetKeyDown(KeyCode.R)) 
        {
