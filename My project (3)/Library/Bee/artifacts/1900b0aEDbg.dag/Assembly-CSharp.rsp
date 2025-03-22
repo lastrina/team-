@@ -360,6 +360,7 @@
 "Assets/Angle.cs"
 "Assets/cameraScript.cs"
 "Assets/enemyHP.cs"
+"Assets/EnemyMove.cs"
 "Assets/Gun.cs"
 "Assets/jump.cs"
 "Assets/playerAngle.cs"
